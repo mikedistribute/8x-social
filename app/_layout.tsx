@@ -4,7 +4,6 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Stack } from 'expo-router';
 
 export const unstable_settings = {
-  // Ensure that reloading on `/modal` keeps a back button present.
   initialRouteName: '(tabs)',
 };
 
@@ -13,7 +12,8 @@ export default function RootLayout() {
     <SafeAreaProvider>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="campaign/[id]" options={{ title: 'Campaign' }} />
+        <Stack.Screen name="campaign/[id]/submit" options={{ title: 'Submit URL' }} />
       </Stack>
     </SafeAreaProvider>
   );

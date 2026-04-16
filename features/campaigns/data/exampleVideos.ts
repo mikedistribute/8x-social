@@ -1,0 +1,68 @@
+import { ExampleVideo } from '@/features/campaigns/types';
+
+export const exampleVideos: ExampleVideo[] = [
+  {
+    id: 'coffee-street',
+    title: 'Coffee outside a shop',
+    libraryName: 'Pexels',
+    videoUrl: 'https://www.pexels.com/download/video/5834228/',
+    posterUrl:
+      'https://www.pexels.com/video/vertical-video-of-a-man-having-a-coffee-outside-of-a-coffee-shop-5834228/',
+    durationLabel: '0:06',
+    creatorLabel: 'Tim Samuel',
+  },
+  {
+    id: 'coffee-seat',
+    title: 'Inside the coffee shop',
+    libraryName: 'Pexels',
+    videoUrl: 'https://www.pexels.com/download/video/9047392/',
+    posterUrl: 'https://www.pexels.com/video/a-man-sitting-inside-the-coffee-shop-9047394/',
+    durationLabel: '0:04',
+    creatorLabel: 'Mike Jones',
+  },
+  {
+    id: 'planner-open',
+    title: 'Open planner on a desk',
+    libraryName: 'Pexels',
+    videoUrl: 'https://www.pexels.com/download/video/19798257/',
+    posterUrl: 'https://www.pexels.com/video/an-open-planner-on-a-desk-19798257/',
+    durationLabel: '0:11',
+    creatorLabel: 'Ali Alcantara',
+  },
+  {
+    id: 'planner-close',
+    title: 'Close-up planner detail',
+    libraryName: 'Pexels',
+    videoUrl: 'https://www.pexels.com/download/video/19798259/',
+    posterUrl: 'https://www.pexels.com/video/close-up-of-an-open-planner-on-a-desk-19798259/',
+    durationLabel: '0:32',
+    creatorLabel: 'Ali Alcantara',
+  },
+  {
+    id: 'fitness-home',
+    title: 'Woman doing exercise',
+    libraryName: 'Pexels',
+    videoUrl: 'https://www.pexels.com/download/video/6446258/',
+    posterUrl: 'https://www.pexels.com/video/woman-doing-exercise-6446258/',
+    durationLabel: '0:40',
+    creatorLabel: 'Pavel Danilyuk',
+  },
+  {
+    id: 'box-packing',
+    title: 'Packing a product box',
+    libraryName: 'Pexels',
+    videoUrl: 'https://www.pexels.com/download/video/4440948/',
+    posterUrl: 'https://www.pexels.com/video/someone-packing-a-box-4440948/',
+    durationLabel: '0:13',
+    creatorLabel: 'cottonbro studio',
+  },
+  {
+    id: 'travel-suitcase',
+    title: 'Traveler with a suitcase',
+    libraryName: 'Pexels',
+    videoUrl: 'https://www.pexels.com/download/video/18514372/',
+    posterUrl: 'https://www.pexels.com/video/traveler-with-a-suitcase-18514372/',
+    durationLabel: '0:15',
+    creatorLabel: 'Max Medyk',
+  },
+];

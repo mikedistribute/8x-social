@@ -1,11 +1,15 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { SFSymbol } from 'expo-symbols';
 import { StyleSheet } from 'react-native';
 
+import { SymbolIcon } from '@/components/SymbolIcon';
+
 export const TabBarIcon = (props: {
-  name: React.ComponentProps<typeof FontAwesome>['name'];
+  name: SFSymbol;
+  fallback: React.ComponentProps<typeof FontAwesome>['name'];
   color: string;
 }) => {
-  return <FontAwesome size={28} style={styles.tabBarIcon} {...props} />;
+  return <SymbolIcon name={props.name} fallback={props.fallback} color={props.color} size={22} />;
 };
 
 export const styles = StyleSheet.create({
